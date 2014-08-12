@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6205" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="CustomView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="224"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mgQ-U6-e08">
+                    <rect key="frame" x="4" y="176" width="24" height="40"/>
+                    <state key="normal" title="1">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="8dF-T6-aP2"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="217" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a2O-1q-Mv3">
+                    <rect key="frame" x="4" y="37" width="24" height="40"/>
+                    <state key="normal" title="Q">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="7I8-Ar-thQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="223" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rfe-b8-Ccl">
+                    <rect key="frame" x="34" y="37" width="24" height="40"/>
+                    <state key="normal" title="W">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="TlS-PX-WEe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="205" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C6l-xr-cI2">
+                    <rect key="frame" x="66" y="37" width="24" height="40"/>
+                    <state key="normal" title="E">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="xj2-wi-7lM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="218" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SyA-fw-VUS">
+                    <rect key="frame" x="98" y="37" width="24" height="40"/>
+                    <state key="normal" title="R">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="K7P-zg-ddk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="220" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d2C-wZ-R8v">
+                    <rect key="frame" x="130" y="37" width="24" height="40"/>
+                    <state key="normal" title="T">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="S9R-Vb-PwV"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="225" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i4k-Qn-f2U">
+                    <rect key="frame" x="162" y="37" width="24" height="40"/>
+                    <state key="normal" title="Y">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="AYl-5C-W6i"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="221" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wms-UM-kQ8">
+                    <rect key="frame" x="194" y="37" width="24" height="40"/>
+                    <state key="normal" title="U">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="3V5-XN-SjC"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="209" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xY0-A2-97z">
+                    <rect key="frame" x="226" y="37" width="24" height="40"/>
+                    <state key="normal" title="I">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="64l-cG-Wg4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="215" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ld0-YH-VXc">
+                    <rect key="frame" x="258" y="37" width="24" height="40"/>
+                    <state key="normal" title="O">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="xoS-nj-nBy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="201" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EeP-66-vae">
+                    <rect key="frame" x="22" y="85" width="24" height="40"/>
+                    <state key="normal" title="A">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="W46-ph-vSl"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="219" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Qb-Ga-LUC">
+                    <rect key="frame" x="50" y="85" width="24" height="40"/>
+                    <state key="normal" title="S">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="A8B-E4-GH4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="204" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lKv-vG-9WJ">
+                    <rect key="frame" x="82" y="85" width="24" height="40"/>
+                    <state key="normal" title="D">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="qgB-E0-r3u"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="206" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kiN-GK-r0S">
+                    <rect key="frame" x="114" y="85" width="24" height="40"/>
+                    <state key="normal" title="F">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="SyS-dN-g1e"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="207" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BrE-Sv-YLU">
+                    <rect key="frame" x="146" y="85" width="24" height="40"/>
+                    <state key="normal" title="G">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="TUk-V3-e7R"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="208" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OKB-Jg-i3m">
+                    <rect key="frame" x="178" y="85" width="24" height="40"/>
+                    <state key="normal" title="H">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="SdK-0E-LMk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="210" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hdf-oA-7kH">
+                    <rect key="frame" x="210" y="85" width="24" height="40"/>
+                    <state key="normal" title="J">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="0xz-NM-t1J"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="211" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JYt-Z9-3Zb">
+                    <rect key="frame" x="242" y="85" width="24" height="40"/>
+                    <state key="normal" title="K">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="DD4-fW-bYM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="226" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BaP-Tr-6ax">
+                    <rect key="frame" x="50" y="133" width="24" height="40"/>
+                    <state key="normal" title="Z">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="hvL-S3-APy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="224" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YGY-LE-vfu">
+                    <rect key="frame" x="82" y="133" width="24" height="40"/>
+                    <state key="normal" title="X">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="oaU-X2-IgI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="203" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVb-Yv-lUS">
+                    <rect key="frame" x="114" y="133" width="24" height="40"/>
+                    <state key="normal" title="C">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="Q5G-w1-97y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="222" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mEf-4r-grH">
+                    <rect key="frame" x="146" y="133" width="24" height="40"/>
+                    <state key="normal" title="V">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="SD8-d6-Pj6"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="202" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H0a-XO-715">
+                    <rect key="frame" x="178" y="133" width="24" height="40"/>
+                    <state key="normal" title="B">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="OL8-HP-Qbp"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="214" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3eu-wv-zSd">
+                    <rect key="frame" x="210" y="133" width="24" height="40"/>
+                    <state key="normal" title="N">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="JZn-1f-Gwf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="213" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLw-BM-I1x">
+                    <rect key="frame" x="242" y="133" width="24" height="40"/>
+                    <state key="normal" title="M">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="C7R-Fw-uIT"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8RO-N5-x3h">
+                    <rect key="frame" x="36" y="176" width="24" height="40"/>
+                    <state key="normal" title="2">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="78J-wC-Eae"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wIZ-Hx-LTU">
+                    <rect key="frame" x="68" y="176" width="24" height="40"/>
+                    <state key="normal" title="3">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="pfo-ja-GWR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EiD-U0-Ywf">
+                    <rect key="frame" x="100" y="176" width="24" height="40"/>
+                    <state key="normal" title="4">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="KFy-oY-XJ9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kFB-Ve-MMG">
+                    <rect key="frame" x="132" y="176" width="24" height="40"/>
+                    <state key="normal" title="5">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="TSD-Og-JYZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K1e-Gy-ZtB">
+                    <rect key="frame" x="164" y="176" width="24" height="40"/>
+                    <state key="normal" title="6">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="95v-zT-WWm"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OQO-HP-7Ok">
+                    <rect key="frame" x="196" y="176" width="24" height="40"/>
+                    <state key="normal" title="7">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="9cU-27-0mR"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9N-wI-94e">
+                    <rect key="frame" x="228" y="176" width="24" height="40"/>
+                    <state key="normal" title="8">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="3Sk-wE-gmQ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0ra-Yi-qhe">
+                    <rect key="frame" x="260" y="176" width="24" height="40"/>
+                    <state key="normal" title="9">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="kjI-6G-iK3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cJe-T4-IuF">
+                    <rect key="frame" x="292" y="176" width="24" height="40"/>
+                    <state key="normal" title="0">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="2Ya-zB-thv"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="101" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aFj-BN-HO0">
+                    <rect key="frame" x="6" y="133" width="40" height="40"/>
+                    <state key="normal" title="切替">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="15H-hL-QoK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="102" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZm-Kd-oxd">
+                    <rect key="frame" x="272" y="133" width="40" height="40"/>
+                    <state key="normal" title="完了">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="f5D-ke-itO"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Op9-2J-6MZ">
+                    <rect key="frame" x="0.0" y="8" width="320" height="21"/>
+                    <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.98823529409999999" blue="0.99215686270000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="216" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="INQ-U9-8ax">
+                    <rect key="frame" x="290" y="37" width="24" height="40"/>
+                    <state key="normal" title="P">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="JbD-u5-Zg4"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="212" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XPL-Pl-hKg">
+                    <rect key="frame" x="274" y="85" width="24" height="40"/>
+                    <state key="normal" title="L">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="didTapKey:" destination="i5M-Pr-FkT" eventType="touchUpInside" id="pPa-qE-ryI"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="0.7725490196" blue="0.80392156859999997" alpha="1" colorSpace="calibratedRGB"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="_LblInputLine" destination="Op9-2J-6MZ" id="Url-Nn-unQ"/>
+            </connections>
+            <point key="canvasLocation" x="37" y="-1"/>
+        </view>
+    </objects>
+</document>

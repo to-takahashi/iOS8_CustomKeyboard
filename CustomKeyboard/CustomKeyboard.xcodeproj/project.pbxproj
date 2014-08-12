@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ECCA20941995DD930085C42E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20931995DD930085C42E /* main.m */; };
+		ECCA20971995DD930085C42E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20961995DD930085C42E /* AppDelegate.m */; };
+		ECCA209A1995DD930085C42E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20991995DD930085C42E /* ViewController.m */; };
+		ECCA209D1995DD930085C42E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ECCA209B1995DD930085C42E /* Main.storyboard */; };
+		ECCA209F1995DD930085C42E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ECCA209E1995DD930085C42E /* Images.xcassets */; };
+		ECCA20AB1995DD930085C42E /* CustomKeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20AA1995DD930085C42E /* CustomKeyboardTests.m */; };
+		ECCA20BE1995E1130085C42E /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20BD1995E1130085C42E /* KeyboardViewController.m */; };
+		ECCA20C11995E1130085C42E /* CustomKeyboardTarget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = ECCA20B81995E1130085C42E /* CustomKeyboardTarget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		ECCA20CB1995E2120085C42E /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20C91995E2120085C42E /* CustomViewController.m */; };
+		ECCA20CC1995E2120085C42E /* CustomViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECCA20CA1995E2120085C42E /* CustomViewController.xib */; };
+		ECCA20CF1995F81C0085C42E /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCA20CE1995F81C0085C42E /* CustomView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECCA20A51995DD930085C42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCA20861995DD930085C42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCA208D1995DD930085C42E;
+			remoteInfo = CustomKeyboard;
+		};
+		ECCA20BF1995E1130085C42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCA20861995DD930085C42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCA20B71995E1130085C42E;
+			remoteInfo = CustomKeyboardTarget;
+		};
+		ECCA20C21995E1130085C42E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECCA20861995DD930085C42E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECCA20B71995E1130085C42E;
+			remoteInfo = CustomKeyboardTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ECCA20C71995E1130085C42E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				ECCA20C11995E1130085C42E /* CustomKeyboardTarget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		ECCA208E1995DD930085C42E /* CustomKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCA20921995DD930085C42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCA20931995DD930085C42E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECCA20951995DD930085C42E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ECCA20961995DD930085C42E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ECCA20981995DD930085C42E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ECCA20991995DD930085C42E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ECCA209C1995DD930085C42E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ECCA209E1995DD930085C42E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ECCA20A41995DD930085C42E /* CustomKeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomKeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCA20A91995DD930085C42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCA20AA1995DD930085C42E /* CustomKeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomKeyboardTests.m; sourceTree = "<group>"; };
+		ECCA20B81995E1130085C42E /* CustomKeyboardTarget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomKeyboardTarget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECCA20BB1995E1130085C42E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ECCA20BC1995E1130085C42E /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
+		ECCA20BD1995E1130085C42E /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		ECCA20C81995E2120085C42E /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		ECCA20C91995E2120085C42E /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		ECCA20CA1995E2120085C42E /* CustomViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomViewController.xib; sourceTree = "<group>"; };
+		ECCA20CD1995F81C0085C42E /* CustomView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		ECCA20CE1995F81C0085C42E /* CustomView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECCA208B1995DD930085C42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCA20A11995DD930085C42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCA20B51995E1130085C42E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECCA20851995DD930085C42E = {
+			isa = PBXGroup;
+			children = (
+				ECCA20901995DD930085C42E /* CustomKeyboard */,
+				ECCA20A71995DD930085C42E /* CustomKeyboardTests */,
+				ECCA20B91995E1130085C42E /* CustomKeyboardTarget */,
+				ECCA208F1995DD930085C42E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECCA208F1995DD930085C42E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA208E1995DD930085C42E /* CustomKeyboard.app */,
+				ECCA20A41995DD930085C42E /* CustomKeyboardTests.xctest */,
+				ECCA20B81995E1130085C42E /* CustomKeyboardTarget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECCA20901995DD930085C42E /* CustomKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA20951995DD930085C42E /* AppDelegate.h */,
+				ECCA20961995DD930085C42E /* AppDelegate.m */,
+				ECCA20981995DD930085C42E /* ViewController.h */,
+				ECCA20991995DD930085C42E /* ViewController.m */,
+				ECCA209B1995DD930085C42E /* Main.storyboard */,
+				ECCA209E1995DD930085C42E /* Images.xcassets */,
+				ECCA20911995DD930085C42E /* Supporting Files */,
+			);
+			path = CustomKeyboard;
+			sourceTree = "<group>";
+		};
+		ECCA20911995DD930085C42E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA20921995DD930085C42E /* Info.plist */,
+				ECCA20931995DD930085C42E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECCA20A71995DD930085C42E /* CustomKeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA20AA1995DD930085C42E /* CustomKeyboardTests.m */,
+				ECCA20A81995DD930085C42E /* Supporting Files */,
+			);
+			path = CustomKeyboardTests;
+			sourceTree = "<group>";
+		};
+		ECCA20A81995DD930085C42E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA20A91995DD930085C42E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECCA20B91995E1130085C42E /* CustomKeyboardTarget */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA20BC1995E1130085C42E /* KeyboardViewController.h */,
+				ECCA20BD1995E1130085C42E /* KeyboardViewController.m */,
+				ECCA20CD1995F81C0085C42E /* CustomView.h */,
+				ECCA20CE1995F81C0085C42E /* CustomView.m */,
+				ECCA20C81995E2120085C42E /* CustomViewController.h */,
+				ECCA20C91995E2120085C42E /* CustomViewController.m */,
+				ECCA20CA1995E2120085C42E /* CustomViewController.xib */,
+				ECCA20BA1995E1130085C42E /* Supporting Files */,
+			);
+			path = CustomKeyboardTarget;
+			sourceTree = "<group>";
+		};
+		ECCA20BA1995E1130085C42E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECCA20BB1995E1130085C42E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECCA208D1995DD930085C42E /* CustomKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCA20AE1995DD930085C42E /* Build configuration list for PBXNativeTarget "CustomKeyboard" */;
+			buildPhases = (
+				ECCA208A1995DD930085C42E /* Sources */,
+				ECCA208B1995DD930085C42E /* Frameworks */,
+				ECCA208C1995DD930085C42E /* Resources */,
+				ECCA20C71995E1130085C42E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCA20C01995E1130085C42E /* PBXTargetDependency */,
+				ECCA20C31995E1130085C42E /* PBXTargetDependency */,
+			);
+			name = CustomKeyboard;
+			productName = CustomKeyboard;
+			productReference = ECCA208E1995DD930085C42E /* CustomKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECCA20A31995DD930085C42E /* CustomKeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCA20B11995DD930085C42E /* Build configuration list for PBXNativeTarget "CustomKeyboardTests" */;
+			buildPhases = (
+				ECCA20A01995DD930085C42E /* Sources */,
+				ECCA20A11995DD930085C42E /* Frameworks */,
+				ECCA20A21995DD930085C42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECCA20A61995DD930085C42E /* PBXTargetDependency */,
+			);
+			name = CustomKeyboardTests;
+			productName = CustomKeyboardTests;
+			productReference = ECCA20A41995DD930085C42E /* CustomKeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ECCA20B71995E1130085C42E /* CustomKeyboardTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECCA20C61995E1130085C42E /* Build configuration list for PBXNativeTarget "CustomKeyboardTarget" */;
+			buildPhases = (
+				ECCA20B41995E1130085C42E /* Sources */,
+				ECCA20B51995E1130085C42E /* Frameworks */,
+				ECCA20B61995E1130085C42E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomKeyboardTarget;
+			productName = CustomKeyboardTarget;
+			productReference = ECCA20B81995E1130085C42E /* CustomKeyboardTarget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECCA20861995DD930085C42E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "INZENYR LLC";
+				TargetAttributes = {
+					ECCA208D1995DD930085C42E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					ECCA20A31995DD930085C42E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = ECCA208D1995DD930085C42E;
+					};
+					ECCA20B71995E1130085C42E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = ECCA20891995DD930085C42E /* Build configuration list for PBXProject "CustomKeyboard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ECCA20851995DD930085C42E;
+			productRefGroup = ECCA208F1995DD930085C42E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECCA208D1995DD930085C42E /* CustomKeyboard */,
+				ECCA20A31995DD930085C42E /* CustomKeyboardTests */,
+				ECCA20B71995E1130085C42E /* CustomKeyboardTarget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCA208C1995DD930085C42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA209D1995DD930085C42E /* Main.storyboard in Resources */,
+				ECCA209F1995DD930085C42E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCA20A21995DD930085C42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCA20B61995E1130085C42E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA20CC1995E2120085C42E /* CustomViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECCA208A1995DD930085C42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA209A1995DD930085C42E /* ViewController.m in Sources */,
+				ECCA20971995DD930085C42E /* AppDelegate.m in Sources */,
+				ECCA20941995DD930085C42E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCA20A01995DD930085C42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA20AB1995DD930085C42E /* CustomKeyboardTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECCA20B41995E1130085C42E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECCA20BE1995E1130085C42E /* KeyboardViewController.m in Sources */,
+				ECCA20CB1995E2120085C42E /* CustomViewController.m in Sources */,
+				ECCA20CF1995F81C0085C42E /* CustomView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECCA20A61995DD930085C42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCA208D1995DD930085C42E /* CustomKeyboard */;
+			targetProxy = ECCA20A51995DD930085C42E /* PBXContainerItemProxy */;
+		};
+		ECCA20C01995E1130085C42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCA20B71995E1130085C42E /* CustomKeyboardTarget */;
+			targetProxy = ECCA20BF1995E1130085C42E /* PBXContainerItemProxy */;
+		};
+		ECCA20C31995E1130085C42E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECCA20B71995E1130085C42E /* CustomKeyboardTarget */;
+			targetProxy = ECCA20C21995E1130085C42E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECCA209B1995DD930085C42E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECCA209C1995DD930085C42E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECCA20AC1995DD930085C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ECCA20AD1995DD930085C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ECCA20AF1995DD930085C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ECCA20B01995DD930085C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = CustomKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ECCA20B21995DD930085C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKeyboard.app/CustomKeyboard";
+			};
+			name = Debug;
+		};
+		ECCA20B31995DD930085C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyboardTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomKeyboard.app/CustomKeyboard";
+			};
+			name = Release;
+		};
+		ECCA20C41995E1130085C42E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CustomKeyboardTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		ECCA20C51995E1130085C42E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CustomKeyboardTarget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECCA20891995DD930085C42E /* Build configuration list for PBXProject "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCA20AC1995DD930085C42E /* Debug */,
+				ECCA20AD1995DD930085C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCA20AE1995DD930085C42E /* Build configuration list for PBXNativeTarget "CustomKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCA20AF1995DD930085C42E /* Debug */,
+				ECCA20B01995DD930085C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCA20B11995DD930085C42E /* Build configuration list for PBXNativeTarget "CustomKeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCA20B21995DD930085C42E /* Debug */,
+				ECCA20B31995DD930085C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECCA20C61995E1130085C42E /* Build configuration list for PBXNativeTarget "CustomKeyboardTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECCA20C41995E1130085C42E /* Debug */,
+				ECCA20C51995E1130085C42E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECCA20861995DD930085C42E /* Project object */;
+}
